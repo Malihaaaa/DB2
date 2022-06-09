@@ -5,6 +5,9 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import dtu.engtech.stateincompose.ui.theme.*
+import kotlin.text.Typography
+
 
 private val DarkColorPalette = darkColors(
     primary = Purple200,
@@ -37,11 +40,13 @@ fun StateInComposeTheme(
     } else {
         LightColorPalette
     }
-
+/*
     MaterialTheme(
         colors = colors,
         typography = Typography,
         shapes = Shapes,
         content = content
     )
+
+ */
 }

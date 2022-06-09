@@ -1,4 +1,4 @@
-package dtu.engtech.iabr.stateincompose
+package dtu.engtech.stateincompose
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

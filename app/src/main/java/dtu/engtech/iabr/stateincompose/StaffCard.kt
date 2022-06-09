@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -25,13 +24,18 @@ fun StaffCard(
         Spacer(modifier = Modifier.width(8.dp))
         Column() {
             Text(
-                text = staff?.name ?: ""
+                text = staff?.id ?: ""
             )
             Spacer(modifier = Modifier.height(4.dp))
+
+            Spacer(modifier = Modifier.height(4.dp))
             Text(
-                text = staff?.office ?: "",
+                text = staff?.lokation ?: "",
                 modifier = Modifier.padding(all = 4.dp),
                 style = MaterialTheme.typography.body2
+            )
+            Text(
+                text = staff?.navn ?: ""
             )
         }
     }

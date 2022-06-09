@@ -1,4 +1,4 @@
-package dtu.engtech.iabr.stateincompose
+package dtu.engtech.stateincompose
 
 import org.junit.Test
 

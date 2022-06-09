@@ -1,4 +1,4 @@
-package dtu.engtech.iabr.stateincompose.ui.theme
+package dtu.engtech.stateincompose.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
